@@ -22,11 +22,10 @@ name = "kit-app-template"
 # Apps to run and precache
 apps = [
     "${root}/source/apps/omni.usd_explorer.kit",
-    "${root}/source/apps/my_name.my_app.kit",
+    "${root}/source/apps/omni.usd_explorer.ovc.kit",
 ]
 
 registries = [
     { name = "kit/default", url = "https://ovextensionsprod.blob.core.windows.net/exts/kit/prod/shared" },
     { name = "kit/sdk", url = "https://ovextensionsprod.blob.core.windows.net/exts/kit/prod/sdk/${kit_version_short}/${kit_git_hash}" },
 ]
-
