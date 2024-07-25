@@ -14,7 +14,7 @@ repo_build.prebuild_copy {
 
 -- Apps: for each app generate batch files and a project based on kit files (e.g. my_name.my_app.kit)
 define_app("omni.usd_explorer")
-define_app("my_name.my_app")
+define_app("omni.usd_explorer.ovc")
 
 -- App warmup script for the Launcher
 create_app_warmup_script("omni.usd_explorer", {
